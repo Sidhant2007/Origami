@@ -1,6 +1,88 @@
 body{
-    background-color: rgb(000, 255, 000);
+    background-color: rgb(000, 255, 255);
 }
-header{
-    background-color: rgb(255, 126, 10);
+h1{
+    margin: 20px;
 }
+.Header{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+}
+.Menu{
+    justify-content: space-evenly;
+    background-color: darkslategrey;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-right: 20px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.PaperMenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.PaperMenu img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.Dragon{
+    border-radius: 20px;
+    background-color: teal;
+    width: 350px;
+    font-family: fantasy;
+    position: relative;
+}
+
+.Dragon p{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.Dragon:hover p{
+    opacity: 1;
+}
+
+.Dragon:hover img{
+    opacity: 0.3;
+}
+
+.Eagle{
+    border-radius: 20px;
+    background-color: teal;
+    width: 350px;
+    font-family: fantasy;
+    position: relative;
+}
+.Eagle p{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.Eagle:hover p{
+    opacity: 1;
+}
+
+.Eagle:hover img{
+    opacity: 0.3;
+}
+
+a:link{
+    color: coral;
+} 
+a:visited{
+    color: crimson;
+}
+
